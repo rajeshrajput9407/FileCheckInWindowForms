@@ -8,3 +8,13 @@ string filePath = new DirectoryInfo(Environment.CurrentDirectory).Parent.Parent.
             var fullPath = Path.Combine(filePath, @"License");           // Here full path till your folder
             DirectoryInfo dinfo = new DirectoryInfo(fullPath);           // Get all information of full path
             FileInfo[] smFiles = dinfo.GetFiles("tt.txt");                // Get All files in folder
+            
+             if (File.Exists(fullPath))                   //Check File exist or not
+             {
+
+              }
+            else
+             {
+                 Application.Run(new CheckLilcence());
+
+             }
