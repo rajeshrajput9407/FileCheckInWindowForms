@@ -22,3 +22,8 @@ string filePath = new DirectoryInfo(Environment.CurrentDirectory).Parent.Parent.
 
 
          string[] lines = System.IO.File.ReadAllLines(fullPath);  // Read all Lines and all Test also from file
+         
+         ////////////******** Clear Txt File *********//////////////////////////////////////////////////
+          using (var fs = new FileStream(fullPath, FileMode.Truncate))
+               {
+               }
