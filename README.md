@@ -18,3 +18,7 @@ string filePath = new DirectoryInfo(Environment.CurrentDirectory).Parent.Parent.
                  Application.Run(new CheckLilcence());
 
              }
+
+
+
+         string[] lines = System.IO.File.ReadAllLines(fullPath);  // Read all Lines and all Test also from file
