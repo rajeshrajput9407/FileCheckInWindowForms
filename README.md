@@ -1,7 +1,6 @@
 # FileCheckInWindowForms
 You can check file exist or not in window forms
 
-////////////////////////////////********************************************//////////////////////////////////////
 
 string filePath = new DirectoryInfo(Environment.CurrentDirectory).Parent.Parent.FullName;  // This is Root Directory
 
